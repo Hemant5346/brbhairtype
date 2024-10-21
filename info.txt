@@ -1,0 +1,16 @@
+http://localhost:8000/classify_hair
+
+If successful, you should receive a JSON response like this:
+{
+  "hair_type": "Curly hair"
+}
+
+If no face is detected in the image, you'll receive:
+{
+  "error": "No face detected in the image"
+}
+
+If there's an issue with the image file, you'll see:
+{
+  "detail": "Invalid image file"
+}
